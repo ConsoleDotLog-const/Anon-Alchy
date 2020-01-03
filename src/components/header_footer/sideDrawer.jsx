@@ -1,19 +1,25 @@
 import React from 'react';
 
-import Drawer from "@material-ui/core/Drawer"
+import Drawer from '@material-ui/core/Drawer'
 import List from '@material-ui/core/List'
-import ListItem from "@material-ui/core/ListItem"
+import ListItem from '@material-ui/core/ListItem'
 
-const sideDrawer = (props) => {
+const SideDrawer = (props) => {
     return (
         <Drawer
             anchor="right"
             open={props.open}
-            onclose={()=> props.onClose(false)}
+            onClose={()=> props.onClose(false)}
         >
-            drawer
+            <List component="nav">
+                <ListItem button onClick = {()=> console.log("featured")}>
+                    Featured
+                </ListItem>
+
+            </List>
+
         </Drawer>
     );
 };
 
-export default sideDrawer;
+export default SideDrawer;
