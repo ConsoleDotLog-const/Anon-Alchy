@@ -2,7 +2,7 @@ import React from 'react';
 
 import Slider from 'react-slick'
 import S4 from '../../resources/images/s4.jpg'
-import S2 from '../../resources/images/s1.jpg'
+import S5 from '../../resources/images/s5.jpg'
 import S3 from '../../resources/images/s3.jpg'
 
 const Carrousel = () => {
@@ -48,7 +48,7 @@ const Carrousel = () => {
                         className="carrousel_image"
                         style={{
                                 
-                                background:`url(${S2})`,
+                                background:`url(${S5})`,
                                 height:`${window.innerHeight}px`,
                         }}
                    >
