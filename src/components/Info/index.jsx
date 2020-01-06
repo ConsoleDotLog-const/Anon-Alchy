@@ -1,7 +1,6 @@
 import React from 'react';
 
-import icon_calender from '../../resources/images/icons/calender.png'
-
+import iconC from '../../resources'
 
 const Info = () => {
     return (
@@ -15,7 +14,7 @@ const Info = () => {
                                    <div 
                                             className="vn_con"
                                             style={{
-                                                background:`url(${icon_calender})`
+                                                background:`url(${''})`
                                             }}
                                    
                                    

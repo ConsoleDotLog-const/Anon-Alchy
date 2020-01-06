@@ -32,9 +32,6 @@ class countdown extends Component {
             })
         }
 
-        console.log(time)
-
-
     }
 
     componentDidMount(){
