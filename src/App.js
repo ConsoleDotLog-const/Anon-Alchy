@@ -5,6 +5,7 @@ import Header from './components/header_footer/header'
 import Feature from './components/featured'
 import Info from './components/Info'
 import Highlights from './components/highlights'
+import Pricing from './components/pricing'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
          <Feature/>
          <Info/>
          <Highlights/>
+         <Pricing/>
        </div>
       );   
   }
