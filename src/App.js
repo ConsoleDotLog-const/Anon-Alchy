@@ -4,6 +4,7 @@ import './resources/styles.css'
 import Header from './components/header_footer/header'
 import Feature from './components/featured'
 import Info from './components/Info'
+import Highlights from './components/highlights'
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
          <Header/>
          <Feature/>
          <Info/>
+         <Highlights/>
        </div>
       );   
   }
