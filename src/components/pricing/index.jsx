@@ -53,7 +53,7 @@ class Pricing extends Component {
         return (
             <div className="bck_black">
                 <div className="center_wrapper pricing_section">
-                    <h2>Close by options</h2>
+                    <h2>Other options</h2>
 
                         <div className="pricing_wrapper">
                             {this.showBoxes()}
